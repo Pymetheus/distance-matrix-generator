@@ -1,0 +1,66 @@
+{
+    "destination_addresses": [
+        "Am Ballinkai 1, 21129 Hamburg, Germany",
+        "27580 Bremerhaven, Germany"
+    ],
+    "origin_addresses": [
+        "Wilhelminakade 909, 3072 AP Rotterdam, Netherlands",
+        "Loodglansstraat 5, 2030 Antwerpen, Belgium"
+    ],
+    "rows": [
+        {
+            "elements": [
+                {
+                    "distance": {
+                        "text": "491 km",
+                        "value": 490884
+                    },
+                    "duration": {
+                        "text": "5 hours 18 mins",
+                        "value": 19054
+                    },
+                    "status": "OK"
+                },
+                {
+                    "distance": {
+                        "text": "416 km",
+                        "value": 415731
+                    },
+                    "duration": {
+                        "text": "4 hours 43 mins",
+                        "value": 17005
+                    },
+                    "status": "OK"
+                }
+            ]
+        },
+        {
+            "elements": [
+                {
+                    "distance": {
+                        "text": "548 km",
+                        "value": 548138
+                    },
+                    "duration": {
+                        "text": "5 hours 45 mins",
+                        "value": 20707
+                    },
+                    "status": "OK"
+                },
+                {
+                    "distance": {
+                        "text": "475 km",
+                        "value": 474917
+                    },
+                    "duration": {
+                        "text": "5 hours 16 mins",
+                        "value": 18938
+                    },
+                    "status": "OK"
+                }
+            ]
+        }
+    ],
+    "status": "OK",
+    "request_time_iso": "2025-06-26T14:12:35.770785+00:00"
+}
