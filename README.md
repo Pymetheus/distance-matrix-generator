@@ -111,7 +111,7 @@ Valid data type for origins and destinations is a single location, or a list of 
 - **`tuple`** - Containing coordinates: *(34.0522, -118.2437)*  
 - **`list`** - Containing a single string, dictionary or tuple: *["New York, NY", {"lat": 40.7128, "lng": -74.0060}, (34.0522, -118.2437)]*  
 
-It's recommended to use location dictionaries `{label: location}` as input. This improves matrix readability and ensures the database stores locations with meaningful labels.    
+It's recommended to use location dictionaries `{label: location}` as input. This improves matrix readability and ensures the database stores locations with meaningful labels.
 Extract the location values using `list(dict.values())` and pass them to the GoogleMapsFetcher. Use `list(dict.keys())` to retrieve the labels for the DistanceMatrixGenerator.  
 
 Input data can be easily loaded with pandas. For example, from a CSV file:  

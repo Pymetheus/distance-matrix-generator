@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="distance_matrix",
     version="1.0.1",
-    description="A modular pipeline for generating real-world distance matrixes with Google Maps API and storing them in SQL databases.",
+    description="A modular pipeline to generate real-world distance matrixes using the Google Maps API and store them in SQL databases.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="Pymetheus",
