@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="distance_matrix",
-    version="1.0.1",
+    version="1.0.2",
     description="A modular pipeline to generate real-world distance matrixes using the Google Maps API and store them in SQL databases.",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -18,7 +18,7 @@ setup(
     install_requires=[
         'googlemaps>=4.10.0',
         'sqlalchemy>=2.0',
-        'sqlalchemy-dbtoolkit>=0.1.6',
+        'sqlalchemy-dbtoolkit>=0.1.7',
         'pandas>=2.2.0',
         'numpy>=2.2.0',
         'psycopg2>=2.9.0',

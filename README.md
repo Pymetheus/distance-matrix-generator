@@ -40,7 +40,7 @@ List of software, libraries, and tools needed to run the project:
 - Python >= 3.8
 - googlemaps >= 4.10.0
 - sqlalchemy >= 2.0
-- [sqlalchemy-dbtoolkit](https://github.com/Pymetheus/sqlalchemy-dbtoolkit) >= 0.1.4
+- [sqlalchemy-dbtoolkit](https://github.com/Pymetheus/sqlalchemy-dbtoolkit) >= 0.1.7
 - mysql-connector-python >= 9.3.0 (If working with MySQL)
 - psycopg2 >= 2.9.0 (If working with PostgreSQL)
 - pandas >= 2.2.0
