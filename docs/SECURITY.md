@@ -4,11 +4,11 @@ If you believe you have found a security vulnerability, please report it to us a
 
 ## Supported Versions
 
-Currently only the 1.0.1 version of the distance-matrix-generator is supported.
+Currently only the 1.0.2 version of the distance-matrix-generator is supported.
 
 | Version | Supported          |
-| ------- | ------------------ |
-| 1.0.1   | :white_check_mark: |
+|---------| ------------------ |
+| 1.0.2   | :white_check_mark: |
 | others  | :x:                |
 
 ## Reporting a Vulnerability

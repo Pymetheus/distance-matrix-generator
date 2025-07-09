@@ -34,7 +34,7 @@ class DistanceMatrixGenerator:
         try:
             if self.write_to_db:
                 self.DB_Ops = DatabaseOperations(dbms=dbms, db_name=db_name)
-                self.DB_Ops.create_tables()
+                self.DB_Ops.create_tables_if_not_exists()
         except Exception as e:
             print(f"WARNING: Could not connect to database: {e}")
             self.write_to_db = False
