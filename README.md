@@ -134,7 +134,10 @@ destination_addresses = locations_df['Address'][2:].tolist()
 By default, the fetcher uses these [Google Maps Distance Matrix API settings](https://github.com/googlemaps/google-maps-services-python/blob/master/googlemaps/distance_matrix.py):  
 - `mode`: `"driving"`
 - `departure_time`: `"now"`  
-These defaults are suitable for real-time distance estimation using current road conditions.
+
+These defaults are suitable for real-time distance estimation using current road conditions.  
+
+Run the pipeline yourself: Follow the [demo notebook](notebooks/demo_default_pipeline.ipynb) for a guided step-by-step example.  
 
 ```python
 from distance_matrix.fetcher import GoogleMapsFetcher
